@@ -1,0 +1,33 @@
+.card {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: cornsilk;
+  box-shadow: 3px 3px 5px lightblue;
+  border-radius: 4px;
+  transition: transform 200ms ease-out;
+  color: dimgrey;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.image {
+  height:30%;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 120px;
+  }
+
+  .image {
+    height: 50%;
+    width: 50%;
+  }
+}

@@ -1,0 +1,13 @@
+.score,
+.high-score {
+  font-size: 30px;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .score,
+  .high-score {
+    font-size: 20px;
+  }
+}
